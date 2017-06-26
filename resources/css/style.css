@@ -67,6 +67,7 @@ main {
   width: 1200px;
   align-items: stretch;
   justify-content: center;
+  padding-top: 70px;
 }
 
 .mission__statement {
@@ -81,6 +82,8 @@ main {
   display: flex;
   flex-direction: column;
   width: 1000px;
+  height: 700px;
+  padding-top: 70px;
 }
 
 .products {
@@ -112,6 +115,7 @@ main {
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
+  padding-top: 70px;
 }
 
 .locations__container {
