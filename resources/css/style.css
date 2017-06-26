@@ -1,0 +1,148 @@
+/* UNIVERSAL Styling */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+/* HEADER Section */
+
+header {
+  display: flex;
+  position: fixed;
+  z-index: 5;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding: 10px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+  padding: 10px;
+}
+
+/* MAIN Section */
+
+main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 70px;
+  align-items: center;
+}
+
+/* Mission Section */
+
+.mission__block {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.mission__statement {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+/* Featured Tea Section */
+
+.featuredtea__block {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.products__item {
+  padding: 5px;
+}
+
+.products__item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.products__item h4 {
+  padding: 5px;
+}
+
+/* Locations Section */
+
+.locations__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+}
+
+.locations__container {
+  display: flex;
+  justify-content: center;
+}
+
+.locations__address {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 5px 20px;
+  width: 280px;
+  opacity: 1;
+  padding: 10px;
+}
+
+/* FOOTER Section */
+
+footer {
+  position: relative;
+  top: 70px;
+}
+
+.contact {
+  height: 200px;
+}
+
+/* Copyright Section */
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}

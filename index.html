@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Tea Cozy</title>
-    <link href="resources/css/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/style.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
 
@@ -11,9 +11,9 @@
     <header>
       <img src="resources/images/img-tea-cozy-logo.png">
       <nav>
-        <span><a href=".mission">Mission</a></span>
-        <span><a href=".featuredtea">Featured Tea</a></span>
-        <span><a href=".locations">Locations</a></span>
+        <span><a href="#mission">Mission</a></span>
+        <span><a href="#featuredtea">Featured Tea</a></span>
+        <span><a href="#locations">Locations</a></span>
       </nav>
     </header>
 
@@ -23,14 +23,18 @@
 
       <!-- Mission Section -->
 
-      <div class="mission">
-        <h2>Our Mission</h2>
-        <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+      <div id="mission" class="mission__block">
+        <div class="mission__statement">
+          <h2>Our Mission</h2>
+          <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+        </div>
       </div>
+      <br />
+      <br />
 
       <!-- Featured Tea Section -->
 
-      <div class="featuredtea">
+      <div id="featuredtea" class="featuredtea__block">
         <h2>Tea of the Month</h2>
         <h4>What's Steeping at The Tea Cozy?</h4>
         <div class="products">
@@ -47,7 +51,7 @@
             <h4>Seasonal Donuts</h4>
           </div>
           <div class="products__item">
-            <img src="resources/images/img-myrtle.ave.jpg">
+            <img src="resources/images/img-myrtle-ave.jpg">
             <h4>Myrtle Ave Tea</h4>
           </div>
           <div class="products__item">
@@ -56,28 +60,32 @@
           </div>
         </div>
       </div>
+      <br />
+      <br />
 
       <!-- Locations Section -->
 
-      <div class="locations">
+      <div id="locations" class="locations__block">
         <h2>Locations</h2>
-        <div class="locations_address">
-          <h3>Downtown</h3>
-          <p>384 West 4th St</p>
-          <p>Suite 108</p>
-          <p>Portland, Maine</p>
-        </div>
-        <div class="locations_address">
-          <h3>East Bayside</h3>
-          <p>3433 Phisherman's Avenue</p>
-          <p>(Northwest Corner)</p>
-          <p>Portland, Maine</p>
-        </div>
-        <div class="locations_address">
-          <h3>Oakdale</h3>
-          <p>515 Crescent Avenue</p>
-          <p>Second Floor</p>
-          <p>Portland, Maine</p>
+        <div class="locations__container">
+          <div class="locations__address">
+            <h3>Downtown</h3>
+            <p>384 West 4th St</p>
+            <p>Suite 108</p>
+            <p>Portland, Maine</p>
+          </div>
+          <div class="locations__address">
+            <h3>East Bayside</h3>
+            <p>3433 Phisherman's Avenue</p>
+            <p>(Northwest Corner)</p>
+            <p>Portland, Maine</p>
+          </div>
+          <div class="locations__address">
+            <h3>Oakdale</h3>
+            <p>515 Crescent Avenue</p>
+            <p>Second Floor</p>
+            <p>Portland, Maine</p>
+          </div>
         </div>
       </div>
 
@@ -85,17 +93,18 @@
 
     <!-- FOOTER Section -->
 
-    <div class="contact">
-      <h2>The Tea Cozy</h2>
-      <h5>contact@theteacozy.com</h5>
-      <h5>917-555-8904</h5>
-    </div>
+    <footer>
+      <div class="contact">
+        <h2>The Tea Cozy</h2>
+        <h5>contact@theteacozy.com</h5>
+        <h5>917-555-8904</h5>
+      </div>
 
-    <!-- COPYRIGHT Section -->
+      <!-- Copyright Section -->
 
-    <div class="copyright">
-      <h5>copyright The Tea Cozy 2017</h5>
-    </div>
-
+      <div class="copyright">
+        <h5>copyright The Tea Cozy 2017</h5>
+      </div>
+    </footer>
   </body>
 </html>
